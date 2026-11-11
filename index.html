@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kolo Transport — Voyagez en toute confiance</title>
+  <meta name="description" content="Kolo Transport, compagnie de transport de voyageurs : Abidjan, Bouna, Doropo, Tougbo, Ferké. Voyagez en toute confiance.">
+  <meta name="theme-color" content="#0b1f4d">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ EN-TÊTE ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#accueil" class="brand" aria-label="Kolo Transport — accueil">
+        <img src="images/logo.png" alt="Kolo Transport" width="237" height="201">
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="#accueil" class="nav-link">Accueil</a>
+        <a href="#actualites" class="nav-link">Actualités</a>
+        <a href="#trajets" class="nav-link">Nos trajets</a>
+        <a href="#tarifs" class="nav-link">Nos tarifs</a>
+        <a href="#apropos" class="nav-link">À propos de nous</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="tel:+2252721796007" class="btn btn-primary nav-cta">Réserver</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ ACCUEIL ============ -->
+    <section class="hero" id="accueil">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <span class="eyebrow">Transport de voyageurs · 5 étoiles</span>
+          <h1>Voyagez en toute <span class="accent">confiance</span></h1>
+          <p class="lead">Kolo Transport, plus qu’un voyage, une expérience. Des bus modernes, climatisés et spacieux pour relier Abidjan, Bouna, Doropo, Tougbo et Ferké dans le confort et la sécurité.</p>
+          <div class="hero-actions">
+            <a href="#trajets" class="btn btn-primary">Découvrir nos trajets</a>
+            <a href="#contact" class="btn btn-ghost">Nous contacter</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="hero-card-title">Réservations</div>
+          <a class="phone-line" href="tel:+2252721796007">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>27 21 796 007
+          </a>
+          <a class="phone-line" href="tel:+2250708548768">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>07 08 54 87 68
+          </a>
+          <a class="phone-line" href="tel:+2250713767332">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>07 13 76 73 32
+          </a>
+          <a class="phone-line" href="tel:+2250708369793">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>07 08 36 97 93
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ATOUTS ============ -->
+    <section class="features" aria-label="Nos engagements">
+      <div class="container features-grid">
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg>
+          <h3>Sécurité garantie</h3>
+          <p>Votre sécurité guide chacun de nos départs.</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-seat"/></svg>
+          <h3>Confort optimal</h3>
+          <p>Bus climatisés avec des espaces spacieux.</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"/></svg>
+          <h3>Ponctualité assurée</h3>
+          <p>Des départs à l’heure, pour respecter votre temps.</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-driver"/></svg>
+          <h3>Conducteurs expérimentés</h3>
+          <p>Des professionnels de la route à votre service.</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-headset"/></svg>
+          <h3>Service client à l’écoute</h3>
+          <p>Une équipe disponible pour vos réservations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACTUALITÉS ============ -->
+    <section class="section" id="actualites">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow dark">Actualités</span>
+          <h2>À la une chez Kolo Transport</h2>
+          <p>Nos dernières annonces et nos nouvelles lignes.</p>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card reveal">
+            <button class="news-img" data-zoom="images/affiche-tougbo.jpg" data-alt="Affiche : ligne Tougbo – Ferké – Abidjan, départ à 6h00 de Tougbo" aria-label="Agrandir l’affiche Tougbo – Ferké – Abidjan">
+              <img src="images/affiche-tougbo.jpg" alt="Affiche : ligne Tougbo – Ferké – Abidjan, départ à 6h00 de Tougbo" loading="lazy">
+              <span class="zoom-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-expand"/></svg></span>
+            </button>
+            <div class="news-body">
+              <span class="tag">Nouvelle ligne</span>
+              <h3>Tougbo – Ferké – Abidjan : c’est parti !</h3>
+              <p>Premier départ le <strong>10 novembre</strong> à <strong>6h00</strong> depuis Tougbo. Voyage agréable, climatisation, espaces spacieux et sécurité garantie. Réservez dès maintenant.</p>
+            </div>
+          </article>
+
+          <article class="news-card reveal">
+            <button class="news-img" data-zoom="images/affiche-confiance.jpg" data-alt="Affiche : Voyagez en toute confiance, destinations Abidjan, Bouna et Doropo" aria-label="Agrandir l’affiche Voyagez en toute confiance">
+              <img src="images/affiche-confiance.jpg" alt="Affiche : Voyagez en toute confiance, destinations Abidjan, Bouna et Doropo" loading="lazy">
+              <span class="zoom-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-expand"/></svg></span>
+            </button>
+            <div class="news-body">
+              <span class="tag">Nos destinations</span>
+              <h3>Voyagez en toute confiance</h3>
+              <p>Abidjan, Bouna et Doropo : nos bus modernes vous emmènent dans les deux sens, avec un service client à l’écoute pour toutes vos réservations.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOS TRAJETS ============ -->
+    <section class="section section-alt" id="trajets">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow dark">Nos trajets</span>
+          <h2>Nos lignes au départ et à l’arrivée d’Abidjan</h2>
+          <p>Aller et retour, pour relier le sud et le nord dans les meilleures conditions.</p>
+        </div>
+
+        <div class="routes-grid">
+          <article class="route-card reveal">
+            <div class="route-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bus"/></svg></div>
+            <h3 class="route-name">Abidjan <span class="arrow">⇄</span> Bouna</h3>
+            <ul class="route-meta">
+              <li>Abidjan → Bouna</li>
+              <li>Bouna → Abidjan</li>
+            </ul>
+            <a class="route-link" href="tel:+2252721796007">Réserver cette ligne</a>
+          </article>
+
+          <article class="route-card reveal">
+            <div class="route-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bus"/></svg></div>
+            <h3 class="route-name">Abidjan <span class="arrow">⇄</span> Doropo</h3>
+            <ul class="route-meta">
+              <li>Abidjan → Doropo</li>
+              <li>Doropo → Abidjan</li>
+            </ul>
+            <a class="route-link" href="tel:+2250708548768">Réserver cette ligne</a>
+          </article>
+
+          <article class="route-card route-featured reveal">
+            <span class="ribbon">Nouveau</span>
+            <div class="route-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bus"/></svg></div>
+            <h3 class="route-name">Tougbo – Ferké – Abidjan</h3>
+            <ul class="route-meta">
+              <li>Départ à <strong>6h00</strong> de Tougbo</li>
+              <li>Premier départ le 10 novembre</li>
+            </ul>
+            <a class="route-link" href="tel:+2250713767332">Réserver cette ligne</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOS TARIFS ============ -->
+    <section class="section" id="tarifs">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow dark">Nos tarifs</span>
+          <h2>Un voyage de qualité, au juste prix</h2>
+          <p>Nos tarifs sont communiqués par notre service client au moment de la réservation, selon votre destination.</p>
+        </div>
+
+        <div class="tarifs-grid">
+          <div class="tarif-card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ticket"/></svg>
+            <h3>Billets voyageurs</h3>
+            <p>Un tarif clair pour chaque ligne : Bouna, Doropo, Ferké, Tougbo et Abidjan.</p>
+          </div>
+          <div class="tarif-card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bag"/></svg>
+            <h3>Bagages</h3>
+            <p>Les bagages sont acceptés et tarifés selon la quantité.</p>
+          </div>
+          <div class="tarif-card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>
+            <h3>Réservation simple</h3>
+            <p>Appelez-nous et réservez votre place en quelques instants.</p>
+          </div>
+        </div>
+
+        <div class="cta-band reveal">
+          <div>
+            <h3>Besoin d’un renseignement sur un tarif ?</h3>
+            <p>Notre équipe vous répond et vous accompagne dans votre réservation.</p>
+          </div>
+          <a href="tel:+2252721796007" class="btn btn-accent">27 21 796 007</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section class="section section-dark" id="apropos">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <span class="eyebrow">À propos de nous</span>
+          <h2>Une compagnie portée par une vision</h2>
+          <p>Kolo Transport est une compagnie de transport de voyageurs créée par <strong>Monsieur Traoré Tiémoko</strong>, connu et respecté sous le nom du <strong>Général Kolo 5 étoiles</strong>.</p>
+          <p>Jeune minier et entrepreneur, il incarne la réussite par le travail, l’audace et le sens du service. À travers sa <strong>Fondation Général Kolo 5 étoiles</strong>, il met son parcours et ses moyens au service des autres, avec la conviction qu’une réussite n’a de sens que lorsqu’elle est partagée.</p>
+          <p>C’est cette même exigence qui anime Kolo Transport : offrir à chaque voyageur un déplacement sûr, confortable et ponctuel, à bord de véhicules modernes et climatisés, avec des conducteurs expérimentés et un service client à l’écoute.</p>
+          <blockquote>« Kolo Transport, plus qu’un voyage, une expérience. »</blockquote>
+        </div>
+
+        <aside class="about-side reveal">
+          <div class="about-badge">
+            <img src="images/logo.png" alt="Kolo Transport 5 étoiles" width="237" height="201" loading="lazy">
+          </div>
+          <ul class="about-list">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Fondateur : Traoré Tiémoko, « Général Kolo 5 étoiles »</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Fondation Général Kolo 5 étoiles</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Siège à Koumassi, Abidjan</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Véhicules modernes et climatisés</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Lignes : Bouna, Doropo, Ferké, Tougbo</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Ensemble, allons plus loin…</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow dark">Contact</span>
+          <h2>Réservez votre place</h2>
+          <p>Notre équipe est à votre écoute pour toute réservation ou information.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <div class="contact-row">
+              <span class="c-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg></span>
+              <div>
+                <h3>Adresse</h3>
+                <p>Koumassi, Abidjan</p>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="c-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg></span>
+              <div>
+                <h3>Réservations</h3>
+                <p class="numbers">
+                  <a href="tel:+2252721796007">27 21 796 007</a>
+                  <a href="tel:+2250708548768">07 08 54 87 68</a>
+                  <a href="tel:+2250713767332">07 13 76 73 32</a>
+                  <a href="tel:+2250708369793">07 08 36 97 93</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-card reveal">
+            <a class="map-fallback btn btn-primary" href="https://www.google.com/maps?q=Koumassi,+Abidjan,+C%C3%B4te+d%27Ivoire" target="_blank" rel="noopener">Voir Koumassi sur la carte</a>
+            <iframe title="Koumassi, Abidjan — carte" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Koumassi,+Abidjan,+C%C3%B4te+d%27Ivoire&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ PIED DE PAGE ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="images/logo.png" alt="Kolo Transport" class="footer-logo" width="237" height="201" loading="lazy">
+      <ul class="social" aria-label="Réseaux et contacts">
+        <li><a href="tel:+2252721796007" aria-label="Téléphone"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg></a></li>
+        <!-- LIENS À REMPLACER : mettre l'adresse e-mail (mailto:...) et les vrais liens des pages -->
+        <li><a href="#" aria-label="E-mail"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+        <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-facebook"/></svg></a></li>
+        <li><a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tiktok"/></svg></a></li>
+        <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+      </ul>
+      <p class="copyright">© <span id="year">2026</span> Kolo Transport · Voyagez en toute confiance</p>
+    </div>
+  </footer>
+
+  <!-- Bouton d'appel flottant (mobile) -->
+  <a href="tel:+2252721796007" class="fab" aria-label="Appeler pour réserver"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg></a>
+
+  <!-- Visionneuse d'affiches -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Affiche agrandie" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Fermer">&times;</button>
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <!-- ============ ICÔNES (sprite SVG) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5z"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8S15.6 3.5 14.2 3.5c-2.9 0-4.6 1.7-4.6 4.8v2.2H6.8v3.3h2.8V22z"/></symbol>
+      <symbol id="i-tiktok" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 3c.3 2.3 1.6 3.7 3.9 3.9v3.1c-1.4.1-2.7-.3-3.9-1.1v5.6c0 3.5-2.4 5.6-5.4 5.6-3 0-5.4-2.3-5.4-5.3 0-3.3 2.8-5.6 6.2-5.1v3.2c-1.6-.5-3 .4-3 1.9 0 1.2.9 2.1 2.2 2.1 1.3 0 2.2-.8 2.2-2.4V3z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.1a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5zm-1.2 14.2L7.5 13l1.4-1.4 1.9 1.9 4.3-4.3 1.4 1.4z"/></symbol>
+      <symbol id="i-seat" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2a2 2 0 0 0-2 2.3L6.4 14A2.5 2.5 0 0 0 8.9 16H15v-2.5H9.2L8.4 8H15V5.5H8.1L7.9 4.3A2 2 0 0 0 7 2zm8 16H8.9a4.5 4.5 0 0 1-4.4-3.7L4 11H2v2l.5 3.5A6.5 6.5 0 0 0 8.9 22H18v-2h-1v-2z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5 3 .8-1.2-4.3-2.6z"/></symbol>
+      <symbol id="i-driver" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a4.5 4.5 0 0 1 4.5 4.5c0 2.5-2 4.5-4.5 4.5S7.5 9 7.5 6.5A4.5 4.5 0 0 1 12 2zm0 10c4.4 0 8 2.2 8 5v3H4v-3c0-2.8 3.6-5 8-5zm0 2c-2.4 0-4.4 1-5.5 2.2V18h11v-1.8C16.4 15 14.4 14 12 14z"/></symbol>
+      <symbol id="i-headset" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a9 9 0 0 0-9 9v6a3 3 0 0 0 3 3h1v-8H5v-1a7 7 0 0 1 14 0v1h-2v8h2v1h-5v2h5a2 2 0 0 0 2-2V11a9 9 0 0 0-9-9z"/></symbol>
+      <symbol id="i-bus" viewBox="0 0 24 24"><path fill="currentColor" d="M4 16c0 .9.4 1.7 1 2.2V20a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h8v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1.8c.6-.5 1-1.3 1-2.2V6c0-3.5-3.6-4-8-4S4 2.5 4 6zm3.5 1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm9 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM18 11H6V6h12z"/></symbol>
+      <symbol id="i-ticket" viewBox="0 0 24 24"><path fill="currentColor" d="M22 10V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v4a2 2 0 0 1 0 4v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 1 0-4zm-9 7.5h-2v-2h2zm0-4h-2v-3h2zm0-5h-2v-2h2z"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><path fill="currentColor" d="M17 6V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zM9 4h6v2H9zm-1 6h2v8H8zm6 0h2v8h-2z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.5 14.5L6 12l1.4-1.4 3.1 3.1 6.1-6.1L18 9z"/></symbol>
+      <symbol id="i-expand" viewBox="0 0 24 24"><path fill="currentColor" d="M5 5h5v2H7v3H5zm9 0h5v5h-2V7h-3zM5 14h2v3h3v2H5zm12 0h2v5h-5v-2h3z"/></symbol>
+    </defs>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
