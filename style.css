@@ -89,7 +89,7 @@ p { margin: 0 0 1em; }
   position: absolute; inset: 0;
   background:
     linear-gradient(180deg, rgba(11, 31, 77, .92) 0%, rgba(11, 31, 77, .55) 55%, rgba(11, 31, 77, .92) 100%),
-    url("images/bus.jpg") center bottom / cover no-repeat;
+    url("bus.jpg") center bottom / cover no-repeat;
   opacity: .9;
 }
 .hero::after {
